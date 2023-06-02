@@ -2,9 +2,8 @@
 
 ### Requirements
 - [x] Penggunaan Responsive Layout
-- [x] Penggunaan Bootstrap Elements: Card, Carousel, Button, Navbar, Modal
-- [x] Penggunaan Bootstrap class
-- [x] Penggunaan hyperlink untuk navigasi antar halaman
+- [x] Penggunaan Elements: Card, Carousel, Button, Navbar, Modal
+- [x] Penggunaan hyperlink untuk navigasi antar halaman (min 2 halaman)
 - [x] Penyusunan UI/UX yang rapi
 
 ### Contributors

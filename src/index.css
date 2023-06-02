@@ -55,8 +55,9 @@ code {
 
 }
 
-.filterItem ul button:hover {
-  background: #D1D5D8;
+.filterItem ul button:hover,
+.filterItem ul button:active {
+  background: #374151;
   cursor: pointer;
 }
 

@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from "react";
-import { GalleryData } from "./GalleryData";
-import "./index.css";
+import { GalleryData } from "../GalleryData";
+import "../index.css";
+import Navbar from "../components/Navbar";
+import Carousel from "../components/Carousel";
 
-const AppFilter = () => {
+const Home = () => {
   const [data, setData] = useState([]);
   const [collection, setCollection] = useState([]);
 
@@ -17,10 +19,13 @@ const AppFilter = () => {
   };
 
   return (
+    <div>
+    <Navbar />
+    <Carousel />
     <div className="AppFilter">
       <div className="mx-20">
         <div className="filterItem">
-          <ul className="">
+          <ul>
             <li>
               <button onClick={() => setData(GalleryData)}>All</button>
             </li>
@@ -40,7 +45,8 @@ const AppFilter = () => {
         </div>
       </div>
     </div>
+    </div>
   );
 };
 
-export default AppFilter;
+export default Home;
