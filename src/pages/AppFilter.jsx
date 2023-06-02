@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { GalleryData } from "../GalleryData";
-import "../index.css";
 import Navbar from "../components/Navbar";
+import Jumbotron from "../components/Jumbotron";
+import Footer from "../components/Footer";
+import "../index.css";
 
 const AppFilter = () => {
   const [data, setData] = useState([]);
@@ -20,8 +22,9 @@ const AppFilter = () => {
   return (
     <div>
       <Navbar/>
+      <Jumbotron />
       <div className="AppFilter mt-5">
-      <div className="mx-20">
+      <div className="mx-20 mt-10">
         <div className="filterItem">
           <ul>
             <li>
@@ -42,7 +45,8 @@ const AppFilter = () => {
           ))}
         </div>
       </div>
-    </div>
+      </div>
+      <Footer />
     </div>
   );
 };

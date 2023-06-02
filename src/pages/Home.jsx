@@ -3,6 +3,7 @@ import { GalleryData } from "../GalleryData";
 import "../index.css";
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
+import Footer from "../components/Footer";
 
 const Home = () => {
   const [data, setData] = useState([]);
@@ -45,6 +46,7 @@ const Home = () => {
         </div>
       </div>
     </div>
+    <Footer />
     </div>
   );
 };
