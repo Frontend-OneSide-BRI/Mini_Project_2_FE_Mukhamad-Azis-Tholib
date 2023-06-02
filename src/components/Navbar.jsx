@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
+
+
 const Navbar = () => {
+  // Hide button handler
+  const [HideButton, setHideButton] = useState(true);
+  function handleButton() {
+    setHideButton(!HideButton);
+    handleMenu();
+  }
+
+  function handleMenu() {
+    const mobileMenu = document.getElementById("mobile-menu");
+    if (HideButton) {
+      mobileMenu.classList.remove("hidden");
+  } else {
+    mobileMenu.classList.add("hidden");
+  }
+}
+
   return (
 <nav class="bg-gray-800">
   <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -9,7 +27,7 @@ const Navbar = () => {
       <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
       </div>
       <div class="flex flex-1 items-center justify-center sm:items-stretch sm:justify-between">
-        <div class="flex flex-shrink-0 items-center">
+        <div class="flex flex-shrink-0 items-center" onClick={handleButton}>
           <img class="block h-8 w-auto lg:hidden" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"/>
           <img class="hidden h-8 w-auto lg:block" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"/>
           <h1 to className='text-white font-bold ml-3 text-2xl'>Gallery.id</h1>
@@ -24,7 +42,7 @@ const Navbar = () => {
     </div>
   </div>
 
-  <div class="sm:hidden" id="mobile-menu">
+  <div class="sm:hidden hidden" id="mobile-menu">
     <div class="space-y-1 px-2 pb-3 pt-2 text-center">
       <Link to="/" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" aria-current="page">Home</Link>
       <Link to="/gallery" class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium">Gallery</Link>
