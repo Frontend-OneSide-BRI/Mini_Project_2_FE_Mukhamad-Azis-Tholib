@@ -167,4 +167,60 @@ export const GalleryData = [
           "https://img.freepik.com/premium-photo/attractive-asian-female-entrepreneur_1258-12344.jpg?w=996",
         alt: "Female entrepreneur",
       },
+      {
+        id: 25,
+        category: "people",
+        image:
+          "https://img.freepik.com/free-photo/confused-lovely-female-teenager-holds-chin-looks-thoughtfully-aside-has-dark-hair-wears-striped-sweater-isolated-white-wall_273609-16546.jpg?w=996&t=st=1685720955~exp=1685721555~hmac=f34d4aef25921b7547822b4867854ae1a1255409d1fcf1176db8685a2a9a139d",
+        alt: "Lovely female teenager holds chin",
+      },
+      {
+        id: 26,
+        category: "people",
+        image:
+          "https://img.freepik.com/free-photo/smiling-asian-woman-showing-okay-sign-gives-approval-recommends-smth-good-standing-blue-background_1258-83810.jpg?w=996&t=st=1685721011~exp=1685721611~hmac=729ff058ff52db689d2694965a435a5a9a38b961565e349a01e1092979c3b9f8",
+        alt: "Smiling asian woman",
+      },
+      {
+        id: 27,
+        category: "animals",
+        image:
+          "https://img.freepik.com/free-photo/amazing-osprey-sea-hawk-trying-hunt_181624-30966.jpg?w=1060&t=st=1685721109~exp=1685721709~hmac=71cb6eb35cd42e4c2da6f6c2ec3f0fb7aee1dd5e00fbc7c9d841b830ddc8ecae",
+        alt: "Amazing osprey",
+      },
+      {
+        id: 28,
+        category: "animals",
+        image:
+          "https://img.freepik.com/free-photo/gold-bengal-cat-white-space_155003-12732.jpg?w=996&t=st=1685721266~exp=1685721866~hmac=f5a1db4cb7f3433a52ec6cc10923c05895b310359a6fef92fd0c1a61c1d80a9f",
+        alt: "Gold bengal cat",
+      },
+      {
+        id: 29,
+        category: "food",
+        image:
+          "https://img.freepik.com/free-photo/papaya-salad-served-with-rice-noodles-vegetable-salad-decorated-with-thai-food-ingredients_1150-26512.jpg?w=996&t=st=1685721384~exp=1685721984~hmac=f82921479227b7f9a9e54a8b3b6721ee34ac2a68020d5524c0de3d8d87bfd055",
+        alt: "Papaya salad",
+      },
+      {
+        id: 30,
+        category: "food",
+        image:
+          "https://img.freepik.com/free-photo/delicious-meal-with-sambal-arrangement_23-2149076068.jpg?w=996&t=st=1685721465~exp=1685722065~hmac=7163232d9fa1d8482cac043c59cb2a62f72b0e51e26e64f10d3c1034f1622b52",
+        alt: "Sambal tomat",
+      },
+      {
+        id: 31,
+        category: "nature",
+        image:
+          "https://img.freepik.com/premium-photo/scenic-green-mountains-anb-jungles-ceylon-landscape-sri-lanka_266732-14010.jpg?w=996",
+        alt: "Lanscape forest",
+      },
+      {
+        id: 32,
+        category: "nature",
+        image:
+          "https://img.freepik.com/premium-photo/dad-son-this-is-lifestyle-family-farmer-rural-asia_61243-231.jpg?w=996",
+        alt: "Membajak sawah",
+      },
 ];
