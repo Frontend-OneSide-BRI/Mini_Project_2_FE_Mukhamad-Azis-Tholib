@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { GalleryData } from "../GalleryData";
-import "../index.css";
 import Navbar from "../components/Navbar";
 import Carousel from "../components/Carousel";
 import Footer from "../components/Footer";
+import "../index.css";
 
 const Home = () => {
   const [data, setData] = useState([]);
